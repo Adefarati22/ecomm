@@ -1,0 +1,6 @@
+==================GIT and GITHUB===================
+git status- done at anytime
+git init - initialize an empty git repo {only in a new project}
+git add .
+git commit -m "leave a message" .e.g first commit
+crtl + j is used to open terminal in vs code
