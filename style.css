@@ -188,6 +188,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 #img-div {
@@ -258,14 +259,17 @@ button{
   justify-content: space-between;
 }
 
-#thumbail-wrapper:hover{
-  border: 2px solid var(--Pale-orange);
-  color: transparent;
+#thumbnail-wrapper img:hover{
+  border: 3px solid var(--Orange);
+  transition: filter 0.3s ease;
+  filter: opacity(0.5);
+  transition: 0.3 ease;
 }
 
 #thumbnail-wrapper img {
     width: 20%;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .div-wrapper{
