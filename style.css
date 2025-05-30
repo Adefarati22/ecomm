@@ -170,31 +170,31 @@ nav {
 }
 
 #section-2-div-2bii{
-    /* border: 3px solid black; */
-    /* display: flex; */
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  background-color: var(--Light-grayish-blue);
+  border-radius: 10px;
 }
 
 button{
-    /* justify-content: center; */
-    /* align-items: center; */
-    font-weight: 700;
-    background-color: var(--Orange);
-    width: 100%;
-    height: 50px;
-    border-radius: 7px;
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+     background-color: var(--Orange);
+  color: var(--Black);
+  font-weight: 700;
+  font-size: 18px;
+  padding: 20px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #img-div {
-    /* border: 1px solid black; */
-    /* width: 5%; */
-    margin: 0 10px;
+    margin-right: 16px;
 }
 
 @media (min-width:1024px){
